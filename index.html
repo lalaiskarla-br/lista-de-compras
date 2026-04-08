@@ -11,7 +11,7 @@
       rel="stylesheet"
     />
     <link rel="stylesheet" href="./styles.css" />
-    <link rel="icon" href="./favicon.png" type="image/png">
+    <link rel="icon" href="./favicon.png" type="image/png" />
   </head>
   <body>
     <main>
@@ -25,7 +25,7 @@
           class="input-item"
           placeholder="Digite o item que deseja adicionar"
         />
-        <button class="button-item" id="adicionar-item" type="button">
+        <button class="button-item" id="adicionar-item" type="button" onclick="monstrarMensagem()">
           Salvar item
         </button>
       </form>
@@ -43,7 +43,9 @@
         </li>
       </ul>
     </main>
-    <footer>Desenvolvido por Alura. Projeto fictício sem fins comerciais.</footer>
+    <footer>
+      <span>Desenvolvido por Alura. Projeto fictício sem fins comerciais.</span>
+    </footer>
     <script defer src="index.js"></script>
   </body>
 </html>
